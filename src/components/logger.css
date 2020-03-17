@@ -1,0 +1,13 @@
+.logger {
+  padding: 3rem 5rem;
+  min-height: 500px;
+  height: 100vh;
+  overflow: auto;
+}
+.logger ul {
+  list-style: none;
+}
+.logger ul li:before {
+  content: '\00BB';
+  padding-right: 5px;
+}
